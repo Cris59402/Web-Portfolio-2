@@ -8,14 +8,14 @@ import Image from "next/image";
 const Encryption = () => {
   return (
     <div className="flex flex-row relative items-center justify-center min-h-screen w-full h-full">
-      <div id="about-me" className="absolute w-auto h-auto top-0 z-[5]">
-        <div className="text-[40px] font-medium text-center text-gray-200 py-20">
+      <div id="about-me" className="absolute w-auto h-auto top-5 z-[5]">
+        <div className="text-[40px] font-medium text-center text-gray-200 py-[80px]">
           About Me
         </div>
       </div>
 
       <div className="flex flex-col items-center justify-center absolute z-[20] w-auto h-auto">
-        <div className="Welcome-box px-[15px] py-[10px] z-[20] brder my-[20px] border-[#ffffff8b]">
+        <div className="Welcome-box px-[50px] py-[10px] z-[20] brder my-[5px] border-[#ffffff8b]">
           <p className="text-lg my-5 max-w-[1000px]">
             I am a student at the Polytechnic University of Bucharest, Faculty
             of Electronics, Telecommunications and Information Technology,

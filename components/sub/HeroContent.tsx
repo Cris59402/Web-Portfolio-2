@@ -43,8 +43,7 @@ const HeroContent = () => {
         <motion.a
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-          href="/CV.pdf"
-          download
+          href="https://drive.google.com/file/d/1FeJ4lI5G6HQYtJBTCmvI9lUUr5RYHgS0/view?usp=drive_link"
         >
           Take my CV!
         </motion.a>
