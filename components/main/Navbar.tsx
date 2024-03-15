@@ -37,7 +37,10 @@ const Navbar = () => {
         </div>
 
         <div className="flex flex-row gap-5">
-          <a href="/" className="flex flex-row items-center">
+          <a
+            href="https://www.instagram.com/paraschiv_christian/"
+            className="flex flex-row items-center"
+          >
             <Image
               src="/instagram.png"
               alt="logo"
