@@ -3,6 +3,7 @@
 import { Socials } from "@/constants";
 import Image from "next/image";
 import React from "react";
+import "./Navbar.scss";
 
 const Navbar = () => {
   return (
@@ -22,13 +23,16 @@ const Navbar = () => {
           </span>
         </a>
 
-        <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20 pl-20">
-          <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
+        <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20 pl-20 phone">
+          <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200 links">
+            <a href="/" className="cursor-pointer home">
+              Home
+            </a>
             <a href="#skills" className="cursor-pointer">
               Skills
             </a>
             <a href="#about-me" className="cursor-pointer">
-              About me
+              About
             </a>
             <a href="#projects" className="cursor-pointer">
               Projects

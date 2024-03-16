@@ -9,15 +9,16 @@ import {
 } from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
+import "./HeroContent.scss";
 
 const HeroContent = () => {
   return (
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row item-center justify-center pl-[100px] pt-[50px] mt-20 w-full z-[20]"
+      className="flex flex-row item-center justify-center pl-[100px] pt-[50px] mrg w-full z-[20] "
     >
-      <div className="h-full w-full flex flex-col pl-15 pt-20  gap-5 justify-center m-auto text-start">
+      <div className="h-full w-full flex flex-col pl-15 pt-20  gap-5 justify-center m-auto text-start phone_home">
         <motion.div
           variants={slideInFromRight(0.5)}
           className="flex flex-col gap-6 text-6xl  text-white max-w-[600px]  "
@@ -53,7 +54,13 @@ const HeroContent = () => {
         variants={slideInFromRight(0.8)}
         className="w-full h-full flex justify-center items-center pt-[50px] pl-[150px]"
       >
-        <Image src="/CH.png" alt="work icons" height={400} width={700} />
+        <Image
+          src="/CH.png"
+          alt="work icons"
+          height={400}
+          width={700}
+          className="Image"
+        />
       </motion.div>
     </motion.div>
   );

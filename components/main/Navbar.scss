@@ -1,0 +1,18 @@
+@media screen and (max-width: 760px) {
+  div.phone {
+    // background-color: red !important;
+    padding-left: 0.5rem !important;
+    border-radius: 0;
+  }
+  .links {
+    margin: -6.5rem;
+    border: none !important;
+  }
+  a {
+    padding-right: 0rem;
+    margin-right: 2.5rem;
+  }
+  Image {
+    display: none !important;
+  }
+}

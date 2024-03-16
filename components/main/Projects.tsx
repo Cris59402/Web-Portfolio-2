@@ -17,12 +17,12 @@ const Projects = () => {
         />
         <Cards
           src="/ticket.png"
-          title="TicketCH-App"
+          title="Ticket-App"
           description="TicketCH-App is a project that aims to create tickets with issues that are discovered and to be resolved, they are stored in a NoSQL MongoDB database, here being created a unique id for each ticket and the format is JSON."
         />
         <Cards
           src="/warehouse.png"
-          title="ChWarehouse"
+          title="Warehouse"
           description="Crud application that stores in a Microsoft SQL Server database the products from a warehouse, the backend is in .NET and C# and the frontend in react"
         />
       </div>

@@ -17,7 +17,11 @@
 }
 
 .Welcome-text {
-  background: linear-gradient(0deg,rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.4)),
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.4)
+    ),
     linear-gradient(90.01deg, #e59cff 0.01%, #ba9cff 50.01%, #9cb2ff 100%);
   background-blend-mode: normal, screen;
   -webkit-background-clip: text;
@@ -29,10 +33,6 @@
   isolation: isolate;
   overflow: hidden;
   align-items: center;
-  -webkit-backdrop-filter: blur(6px);
-  backdrop-filter: blur(6px);
-  border-radius: 32px;
-  box-shadow: inset 0 -7px 11px #a48fff1f;
   display: flex;
   position: relative;
   width: -moz-max-content;
@@ -58,6 +58,14 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+@media screen and (max-width: 900px) {
+  html {
+    overflow-x: hidden !important;
+  }
+  video {
+    display: none !important;
+  }
 }
 
 html {

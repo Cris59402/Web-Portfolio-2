@@ -9,7 +9,7 @@ interface Props {
 
 const Cards = ({ src, title, description }: Props) => {
   return (
-    <div className="relative overflow-hidden rounded-lg shadow-lg p-3 border border-[#2A0E61]">
+    <div className="relative overflow-hidden rounded-lg shadow-lg p-3 border border-[#2A0E61] phone_card">
       <Image
         src={src}
         alt={title}

@@ -1,9 +1,10 @@
 import React from "react";
 import HeroContent from "../sub/HeroContent";
+import "./Hero.scss";
 
 const Hero = () => {
   return (
-    <div className="relative flex flex-col h-full w-full">
+    <div className="relative flex flex-col h-full w-full ">
       <video
         autoPlay
         muted
