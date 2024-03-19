@@ -34,9 +34,9 @@ const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px] font-bold"
+          className="text-lg text-white my-5 max-w-[600px] font-bold"
         >
-          I am a beginner developer with experience in web and software
+          I am full-stack developer with experience in web and software
           development gained from projects and courses, where I learned to work
           with both Frontend and Backend technologies, and here you can see both
           details about me and my projects!
@@ -46,7 +46,7 @@ const HeroContent = () => {
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
           href="https://drive.google.com/file/d/1RMTfED03kLNxbOKjnkv-E45nbgPaue5H/view?usp=drive_link"
         >
-          Take my CV!
+          View my CV!
         </motion.a>
       </div>
 
