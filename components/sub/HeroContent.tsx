@@ -44,7 +44,7 @@ const HeroContent = () => {
         <motion.a
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-          href="https://drive.google.com/file/d/1JX0nczb3bQPTHJ3WN2bOGuy96EYPOQ9P/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1nqg5bscJl2JKHdnCrYhJ2bm-YuphKP2Z/view?usp=drive_link"
         >
           View my CV!
         </motion.a>
